@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import ReactDOM from "react-dom/client";
 import "./styles.css";
 
-
 const SignUpForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
